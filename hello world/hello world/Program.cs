@@ -11,6 +11,7 @@ namespace hello_world
         static void Main(string[] args)
         {
             Console.WriteLine("你好世界");
+            Console.ReadLine();
         }
     }
 }
