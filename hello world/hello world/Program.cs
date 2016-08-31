@@ -11,7 +11,9 @@ namespace hello_world
         static void Main(string[] args)
         {
             Console.WriteLine("你好世界");
-            Console.ReadLine();
+            var obj = Console.ReadLine();
+            Console.WriteLine(obj.GetType().ToString());
+            var obj = Console.ReadLine();
         }
     }
 }
