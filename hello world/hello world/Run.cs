@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace hello_world
 {
-    public class Program
+    public class Run
     {
-        public static void Main(string[] args)
+        public void run()
         {
-            Console.WriteLine("你好世界");
-            Console.ReadLine();
+            Program.Main(new string[1] { "123" });
         }
     }
 }
